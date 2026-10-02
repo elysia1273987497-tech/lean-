@@ -1,0 +1,149 @@
+==== D:\ai\大一秋课程\分析1\hw1\hw1（题目）.pdf pages 3
+--- page 0 ---
+Homework 1
+Chapter 1: The Real Numbers
+15 problems: 5 easy, 5 medium, and 5 challenging.
+Instructions. Give proofs or counterexamples as requested. You may use Chapter 1 and earlier
+problems, except a conclusion you are asked to prove. Do not use limit theorems, continuity, or
+calculus. Write your solutions on separate paper.
+Notation. N = {0, 1, 2, . . .}, N∗= {1, 2, . . .}, and ℛis the set of Dedekind cuts in Q, ordered by
+inclusion. For a cut, 𝑋𝑐= Q \ 𝑋.
+Part A. Easy
+Problem 1. Equivalence classes and well-defined operations
+On Z, define 𝑎∼𝑏if 𝑎2 = 𝑏2, and write [𝑎] for the class of 𝑎.
+(a) Prove that ∼is an equivalence relation and describe every class.
+(b) Decide whether each rule [𝑎]⊕[𝑏] = [𝑎+𝑏] and [𝑎]⊙[𝑏] = [𝑎𝑏] defines a well-defined operation
+on Z/∼. Prove your answer or give a counterexample.
+Problem 2. A partial order and its extremal elements
+Let 𝐷= {1, 2, 3, 4, 6, 12}, ordered by divisibility: 𝑎⪯𝑏means 𝑎| 𝑏.
+(a) Verify that this is a partial order, but not a total order.
+(b) For 𝐴= {4, 6}, find all upper and lower bounds in 𝐷, all maximal and minimal elements in 𝐴,
+and sup𝐷𝐴and inf𝐷𝐴. Does 𝐴have a greatest or a least element?
+Problem 3. Absolute value in an ordered field
+Let 𝐹be an ordered field and define |𝑥| = max{𝑥, −𝑥}. Using the ordered-field axioms, prove for
+all 𝑥, 𝑦∈𝐹that
+|𝑥𝑦| = |𝑥||𝑦|,
+|𝑥+ 𝑦| ≤|𝑥| + |𝑦|,
+|𝑥| −|𝑦|
+ ≤|𝑥−𝑦|.
+Problem 4. Suprema, infima, and attainment
+(a) Find the supremum and infimum in R of each set
+𝐴=
+n
+𝑛
+𝑛+ 1 : 𝑛∈N∗o
+,
+𝐵= {𝑞∈Q : −2 < 𝑞≤3}.
+Decide which are attained. Justify the bounds without using limits.
+(b) Determine all real upper and lower bounds of ∅. Explain why supR ∅and infR ∅do not exist
+as real numbers.
+Problem 5. Integer parts
+For 𝑥∈R, let ⌊𝑥⌋be the unique integer 𝑚with 𝑚≤𝑥< 𝑚+ 1.
+(a) Prove
+⌊𝑥⌋+ ⌊𝑦⌋≤⌊𝑥+ 𝑦⌋≤⌊𝑥⌋+ ⌊𝑦⌋+ 1.
+Give examples in which the lower bound, respectively the upper bound, is attained.
+(b) Express ⌊−𝑥⌋in terms of ⌊𝑥⌋, distinguishing 𝑥∈Z from 𝑥∉Z. In particular, compute ⌊−7/3⌋.
+1 / 3
+--- page 1 ---
+ANALYSIS 1-H
+/
+THE REAL NUMBERS
+HOMEWORK 1
+Part B. Medium
+Problem 6. Arithmetic of suprema and infima
+Let 𝐴, 𝐵⊆R be nonempty bounded sets.
+(a) Prove that 𝑠= sup 𝐴if and only if 𝑠is an upper bound of 𝐴and, for every 𝜀> 0, some 𝑎∈𝐴
+satisfies 𝑠−𝜀< 𝑎.
+(b) Define 𝐴+ 𝐵= {𝑎+ 𝑏: 𝑎∈𝐴, 𝑏∈𝐵} and 𝐴−𝐵= {𝑎−𝑏: 𝑎∈𝐴, 𝑏∈𝐵}. Prove
+sup(𝐴+ 𝐵) = sup 𝐴+ sup 𝐵,
+inf(𝐴−𝐵) = inf 𝐴−sup 𝐵.
+Problem 7. Rational and irrational numbers in every interval
+Let 𝑎< 𝑏be real numbers.
+(a) Prove that, for every 𝑛∈N∗satisfying 𝑛(𝑏−𝑎) > 1, there is an integer 𝑚with 𝑎< 𝑚/𝑛< 𝑏.
+Deduce the density of Q in R.
+(b) Using only part (a) and the existence and irrationality of
+√
+2, prove that (𝑎, 𝑏) contains infinitely
+many rational numbers and infinitely many irrational numbers. Do not quote the density of
+the irrationals.
+Problem 8. Why negating a cut needs care
+For 𝑟∈Q, write 𝑋𝑟= {𝑞∈Q : 𝑞< 𝑟}. Let 𝑋⊆Q be a Dedekind cut and put 𝑋𝑐= Q \ 𝑋.
+(a) Compute {−𝑢: 𝑢∈𝑋𝑐
+𝑟} and explain why it is not a cut.
+(b) Define
+𝑌= {𝑞∈Q : 𝑞< −𝑢for some 𝑢∈𝑋𝑐}.
+Prove directly that 𝑌is a cut and that 𝑋+ 𝑌= 𝑋0, where 𝑋+ 𝑌= {𝑥+ 𝑦: 𝑥∈𝑋, 𝑦∈𝑌}. You
+may use the small-gap Lemma 1.5.2, but not the already proved additive-inverse law for cuts.
+Problem 9. Nested intervals and their hypotheses
+Let 𝐼𝑛= [𝑎𝑛, 𝑏𝑛] ⊆R be nonempty closed bounded intervals with 𝐼𝑛+1 ⊆𝐼𝑛for every 𝑛≥1.
+(a) With 𝛼= sup{𝑎𝑛: 𝑛≥1} and 𝛽= inf{𝑏𝑛: 𝑛≥1}, prove
+𝛼≤𝛽,
+Ù
+𝑛≥1
+𝐼𝑛= [𝛼, 𝛽].
+(b) Show that the intersection is a singleton if 𝑏𝑛−𝑎𝑛≤1/𝑛for every 𝑛≥1.
+(c) Give a nested family of nonempty open bounded intervals with empty intersection, and a
+nested family of nonempty closed unbounded intervals with empty intersection. Verify both
+examples.
+Problem 10. A non-Archimedean ordered field
+In Q(𝑇), use the order from Section 1.4: a nonzero rational function 𝑃(𝑇)/𝑄(𝑇) is positive when its
+numerator and denominator have leading coefficients of the same sign.
+(a) Prove that 0 < 1/𝑇< 𝑟for every rational 𝑟> 0. Deduce that the canonical copy of Q is not
+order dense in Q(𝑇).
+(b) Prove that N is bounded above in this field but has no supremum there.
+(c) Show that there is no order-preserving unital field homomorphism from Q(𝑇) to R.
+2 / 3
+--- page 2 ---
+ANALYSIS 1-H
+/
+THE REAL NUMBERS
+HOMEWORK 1
+Part C. Challenging
+These problems develop further consequences of Chapter 1.
+Problem 11. Constructing positive roots from completeness
+Fix 𝑎> 0 and an integer 𝑛≥2.
+(a) Show that 𝐸= {𝑡∈R : 𝑡≥0, 𝑡𝑛≤𝑎} is nonempty and bounded above, and that 𝑥= sup 𝐸is
+positive.
+(b) Prove that 𝑥𝑛= 𝑎and that no other positive real number has 𝑛th power 𝑎. Do not use continuity
+or an intermediate value theorem.
+Hint. Use the finite identity
+𝑢𝑛−𝑣𝑛= (𝑢−𝑣)
+𝑛−1
+Õ
+𝑗=0
+𝑢𝑛−1−𝑗𝑣𝑗
+to control a small change in the 𝑛th power.
+Problem 12. Rigidity of real arithmetic
+Suppose 𝑓: R →R satisfies
+𝑓(𝑥+ 𝑦) = 𝑓(𝑥) + 𝑓(𝑦),
+𝑓(𝑥𝑦) = 𝑓(𝑥) 𝑓(𝑦)
+(𝑥, 𝑦∈R).
+Prove that either 𝑓(𝑥) = 0 for every 𝑥, or 𝑓(𝑥) = 𝑥for every 𝑥. Do not assume that 𝑓preserves 1, is
+injective, preserves order, or is continuous. You may use Problem 11.
+Problem 13. Infima in the cut construction
+Let 𝒜⊆ℛbe a nonempty family of Dedekind cuts, bounded below in the inclusion order. Define
+𝐷=
+Ù
+𝑋∈𝒜
+𝑋,
+𝐿= {𝑞∈Q : 𝑞< 𝑟for some 𝑟∈𝐷}.
+(a) Working directly with cuts, prove that 𝐿is a cut and 𝐿= infℛ𝒜.
+(b) For 𝒜= {𝑋1/𝑛: 𝑛∈N∗}, compute 𝐷and 𝐿.
+Explain precisely why simply taking the
+intersection does not always give the infimum in ℛ.
+Problem 14. Rational numbers and repeating decimals
+Let 𝑥∈[0, 1) have canonical decimal expansion 0.𝑑1𝑑2 · · · (not eventually 9). Call the expansion
+eventually periodic if there exist integers 𝑁≥0 and 𝑘≥1 such that 𝑑𝑗+𝑘= 𝑑𝑗for all 𝑗> 𝑁.
+(a) If 𝑥∈Q, prove that its canonical decimal expansion is eventually periodic. A terminating
+expansion counts as periodic with a tail of zeros.
+(b) Prove the converse, using finite geometric sums and the supremum definition of a decimal,
+rather than an infinite-series formula.
+Hint for (a). Track the remainders in long division by the denominator.
+Problem 15. A countable dense set and an uncountable interval
+A set is countable if it is finite or its elements can be listed in a sequence; repetitions in a list are
+allowed.
+(a) Prove that Q is countable by listing pairs (𝑝, 𝑞) ∈Z × N∗in order of |𝑝| + 𝑞.
+(b) Given any sequence 𝑥1, 𝑥2, . . . in [0, 1], construct nonempty closed intervals 𝐼0 = [0, 1] ⊇𝐼1 ⊇· · ·
+such that 𝐼𝑛has length 3−𝑛and 𝑥𝑛∉𝐼𝑛for every 𝑛≥1. Deduce that [0, 1] is not countable.
+Hint for (b). At each step, compare the left and right closed thirds of the preceding interval.
+3 / 3

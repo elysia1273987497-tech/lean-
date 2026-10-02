@@ -1,0 +1,8 @@
+name = "AnalysisHW1"
+
+[[require]]
+name = "mathlib"
+path = "D:/lean-mathlib"
+
+[[lean_lib]]
+name = "AnalysisHW1"

@@ -1,0 +1,9 @@
+import AnalysisHW1.Problem01
+import AnalysisHW1.Problem02
+import AnalysisHW1.Problem03
+import AnalysisHW1.Problem04
+import AnalysisHW1.Problem05
+import AnalysisHW1.Problem06
+import AnalysisHW1.Problem07
+import AnalysisHW1.Problem08
+import AnalysisHW1.Problem09
